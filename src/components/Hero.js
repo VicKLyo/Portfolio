@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom'
-import { useState, useEffect } from 'react'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
-
 import './Hero.css'
 
 
