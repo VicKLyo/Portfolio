@@ -1,6 +1,6 @@
 .hero-container {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,6 +28,28 @@
 
 .under-name-wrapper > .icon-container {
   display: none;
+}
+
+/* Section divider */
+.custom-shape-divider-bottom-1640701133 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1640701133 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 101px;
+}
+
+.custom-shape-divider-bottom-1640701133 .shape-fill {
+  fill: #f8fafd;
 }
 
 @media screen and (max-width: 960px) {
