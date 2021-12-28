@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Ubuntu&display=swap");
 
-
-
 .navbar-container {
   color: #fff;
   height: 80px;
@@ -15,6 +13,7 @@
   top: 0;
   z-index: 999;
   background-color: #1b1b1b;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .navbar {
@@ -68,7 +67,7 @@
 }
 
 .name {
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   font-family: "Monoton";
 }
 
