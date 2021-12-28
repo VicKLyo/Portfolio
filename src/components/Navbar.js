@@ -14,12 +14,11 @@ const [click, setClick] = useState(false)
 const handleClick = () => setClick(!click)
 const closeMobileMenu = () => setClick(false)
 
-
     return (
        
         <>
              <div className="navbar-container">
-             <div className="name">Viktor Yordanov</div>
+             <div className="name">VY</div>
 
                  <div className="navbar">
                  <div className="menu-icon" onClick={handleClick}>
