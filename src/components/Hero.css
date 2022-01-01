@@ -11,11 +11,11 @@
 
 .name-wrapper {
   color: #fff;
-  font-size: 3vw;
+  font-size: clamp(3vw, 3rem, 4rem);
 }
 
 .under-name-wrapper {
-  font-size: 1vw;
+  font-size: clamp(1vw, 1rem, 2rem);
 }
 
 .name-wrapper span {
@@ -33,6 +33,7 @@
 /* Section divider */
 .custom-shape-divider-bottom-1640701133 {
   position: absolute;
+  top: 0;
   bottom: 0;
   left: 0;
   width: 100%;
