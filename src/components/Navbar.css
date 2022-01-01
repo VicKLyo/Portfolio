@@ -67,8 +67,9 @@
 }
 
 .name {
-  font-size: 1.2vw;
+  font-size: clamp(1.2vw, 1rem, 1.2rem);
   font-family: "Monoton";
+  cursor: default;
 }
 
 .name:hover {
