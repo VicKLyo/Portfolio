@@ -15,6 +15,7 @@
   gap: 5rem;
   width: 50%;
   flex-direction: column;
+  padding: 1rem;
 }
 
 .about-image-container {
@@ -42,13 +43,6 @@
 .about-text-wrapper p {
   color: #404040;
   font-size: clamp(1.5vw, 1rem, 2rem);
-}
-
-.about-image2 {
-  position: absolute;
-  top: 184.5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 960px) {
