@@ -1,4 +1,6 @@
 import './Projects.css'
+import { BsGithub } from 'react-icons/bs'
+
 
 
 const Projects = () => {
@@ -8,12 +10,58 @@ const Projects = () => {
                 <h2>Projects</h2>
             </div>
             <div className="project-wrapper">
-                <div className="project-box"></div>
-                <div className="project-box"></div>
-                <div className="project-box"></div>
-                <div className="project-box"></div>
-                <div className="project-box"></div>
-                <div className="project-box"></div>
+
+                <div className="boxes-wrapper">
+
+                <div className="box">
+                    <div className="project-preview"></div>
+                    <div className="live-git">
+                        <span>Live</span>
+                        <BsGithub/>
+                    </div>
+                </div>
+
+                <div className="box">
+                    <div className="project-preview"></div>
+                    <div className="live-git">
+                    <span>Live</span>
+                        <BsGithub/>
+                    </div>
+                </div>
+
+                <div className="box">
+                    <div className="project-preview"></div>
+                    <div className="live-git">
+                    <span>Live</span>
+                        <BsGithub/>
+                    </div>
+                </div>
+                    
+                <div className="box">
+                    <div className="project-preview"></div>
+                    <div className="live-git">
+                    <span>Live</span>
+                        <BsGithub/>
+                    </div>
+                </div>
+
+                <div className="box">
+                    <div className="project-preview"></div>
+                    <div  className="live-git">
+                    <span>Live</span>
+                        <BsGithub/>
+                    </div>
+                </div>
+
+                <div className="box">
+                    <div className="project-preview"></div>
+                    <div className="live-git">
+                    <span>Live</span>
+                        <BsGithub/>
+                    </div>
+                </div>
+                
+                </div>
             </div>
         </div>
     )
