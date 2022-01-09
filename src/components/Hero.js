@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import './Hero.css'
 
@@ -6,7 +5,7 @@ import './Hero.css'
 
 const Hero = () => {
     return (
-     <div className="hero-container">
+     <div id='home' className="hero-container">
         <div className="name-wrapper"> <h1><span>Viktor</span> Yordanov</h1></div>
         <div className="under-name-wrapper">
             <h2>Front End Web Developer</h2>

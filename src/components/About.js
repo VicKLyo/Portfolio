@@ -5,7 +5,7 @@ import {ReactComponent as ReactImage} from './programming.svg';
 
 const About = () => {
     return (
-        <div className="about-container">
+        <div id='about' className="about-container">
             <div className="about-image-container">
             <ReactImage className="about-image"/>
             </div>

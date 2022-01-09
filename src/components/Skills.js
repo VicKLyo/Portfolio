@@ -1,14 +1,11 @@
-import { Link } from 'react-router-dom'
-import {ReactComponent as ReactImage} from './hero.svg';
 import { AiFillHtml5 } from 'react-icons/ai'
 import { SiJavascript, SiTailwindcss, SiBootstrap } from 'react-icons/si'
 import { DiReact, DiGit, DiCss3, DiSass } from 'react-icons/di'
-import { BsFillBootstrapFill } from 'react-icons/bs'
 import './Skills.css'
 
 const Skills = () => {
     return (
-        <div className="skills-container">
+        <div id='skills' className="skills-container">
            <div className="top-half"></div>
            <div className="skills-content">
                <div className="skills-title-wrapper">
