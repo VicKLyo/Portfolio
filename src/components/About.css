@@ -31,7 +31,6 @@
 }
 
 .about-title-wrapper h2 {
-  color: #404040;
   font-size: clamp(2rem, 10vw, 5rem);
   text-transform: uppercase;
 }
@@ -41,7 +40,6 @@
 }
 
 .about-text-wrapper p {
-  color: #404040;
   font-size: clamp(1.5vw, 1rem, 2rem);
 }
 
