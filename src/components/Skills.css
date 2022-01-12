@@ -66,19 +66,19 @@
   color: rgb(252, 236, 21);
 }
 
-.skills-icons:nth-child(5) {
+.skills-icons:nth-child(4) {
   color: #61dafb;
 }
 
 .skills-icons:nth-child(6) {
-  color: #f64d26;
+  color: #7311f5;
 }
 .skills-icons:nth-child(7) {
   color: #d989b2;
 }
 
 .skills-icons:nth-child(8) {
-  color: #7311f5;
+  color: #f64d26;
 }
 
 @media screen and (max-width: 960px) {
