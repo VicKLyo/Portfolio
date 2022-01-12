@@ -15,11 +15,11 @@ const Skills = () => {
                <AiFillHtml5 className='skills-icons' />
                <DiCss3 className='skills-icons' />
                <SiJavascript className='skills-icons' /> 
-               <SiTailwindcss  className='skills-icons' color='mediumTurquoise' /> 
                <DiReact className='skills-icons' />
-               <DiGit className='skills-icons' />
-               <DiSass className='skills-icons' />
+               <SiTailwindcss  className='skills-icons' color='mediumTurquoise' /> 
                <SiBootstrap className='skills-icons' /> 
+               <DiSass className='skills-icons' />
+               <DiGit className='skills-icons' />
 
                </div>
            </div>
