@@ -1,11 +1,11 @@
-import { Link } from 'react-router-dom'
 import './About.css'
+import 'aos/dist/aos.css'
 import {ReactComponent as ReactImage} from './programming.svg';
 
 
 const About = () => {
     return (
-        <div id='about' className="about-container">
+        <div id='about' className="about-container" data-aos="fade-right" data-aos-duration="2200" data-aos-once >
             <div className="about-image-container">
             <ReactImage className="about-image"/>
             </div>

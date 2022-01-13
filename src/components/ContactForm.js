@@ -13,9 +13,6 @@ const ContactForm = () => {
     const [message, setMessage] = useState('');
     const [emailSent, setEmailSent] = useState(false);
 
-
-   
-
     const submit = () => {
         if (name && email && message) {
             const serviceId = 'service_id';
@@ -41,12 +38,13 @@ const ContactForm = () => {
     }
 
     return (
+        
         <div id='contact' className="contact-form-container">
             <div className="contact-title-wrapper">
                 <h2>Contact me !</h2>
             </div>
             <div className="contact-form">
-                <input type="text" placeholder='Your Name' value={name} onChange={e => setName(e.target.value)} />
+                <input type="text" placeholder='Your Name' value={name}  onChange={e => setName(e.target.value)} />
                 <input type="email" placeholder='Your Email Address' value={email} onChange={e => setEmail(e.target.value)} />
                 <textarea placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
                 <button onClick={submit}>Send Message</button>

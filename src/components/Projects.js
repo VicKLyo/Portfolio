@@ -1,13 +1,13 @@
 import './Projects.css'
 import { BsGithub } from 'react-icons/bs'
 import image2 from './Screenshot_1.png'
-import { useState } from 'react';
+import 'aos/dist/aos.css'
 
 
 const ProjectPreview = ({ image, text }) => {
   
     return (
-        <div className='projects-container'>
+        <div className='projects-container' >
             <div
                 className="project-preview">
                 <img src={image} alt="" />
@@ -28,7 +28,7 @@ const Projects = () => {
             <div className="projects-title-wrapper">
                 <h2>Projects</h2>
             </div>
-            <div className="project-wrapper">
+            <div className="project-wrapper"  data-aos='fade-right' data-aos-once>
 
                 <div className="boxes-wrapper">
                 <div className="box" >
