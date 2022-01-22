@@ -57,12 +57,11 @@
 
 .project-preview:hover .hover-container {
   width: 20.999%;
-  height: 38%;
+  height: 43%;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #7510f7;
   background-color: #1d1d1d;
 }
 
@@ -79,18 +78,18 @@
   transition: 0.5s ease-in-out;
   color: #fff;
   display: none;
-  animation: slidein 1s;
+  animation: slidedown 1s;
   position: absolute;
 }
 
-@keyframes slidein {
+@keyframes slidedown {
   from {
     transform: translateY(-15%);
     opacity: 0;
   }
 
   to {
-    transform: translateX(0);
+    transform: translateY(0);
     opacity: 1;
   }
 }
@@ -102,7 +101,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  gap: 3rem;
+  gap: 1rem;
   background-color: #1d1d1d;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;

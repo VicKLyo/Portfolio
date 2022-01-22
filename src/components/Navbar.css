@@ -16,6 +16,10 @@
   font-family: "Ubuntu", sans-serif;
 }
 
+.navbar-hide {
+  display: none;
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -74,9 +78,6 @@ ul li a:after {
 .menu-icon {
   display: none;
 }
-
-/* .nav-item:hover:not(:last-child) {
-} */
 
 .cv {
   font-size: 1.2rem;
