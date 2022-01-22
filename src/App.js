@@ -3,18 +3,24 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar'
 import Hero from './components/Hero';
 import About from './components/About'
+import Skills from './components/Skills';
+import Projects from './components/Projects'
+import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
 
 
 const App = () => {
   return (
     <>
-
     <Router>
-      <Navbar />
+    <Navbar />
     </Router>
     <Hero/>
-    <About/>
-
+    <About/> 
+    <Skills/>
+    <Projects/>
+    <ContactForm/>
+    <Footer/>
     </>
   )
 }
