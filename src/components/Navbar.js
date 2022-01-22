@@ -1,11 +1,8 @@
 import './Navbar.css'
-import { useState, useEffect } from 'react'
+import { useState} from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-scroll'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
-import Scroll from 'react-scroll'
-const ScrollLink = Scroll.ScrollLink
-
 
 
 const Navbar = () => {
@@ -25,37 +22,28 @@ const closeMobileMenu = () => setClick(false)
                         </div>
                     <ul   className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className="nav-item" ><Link   to="home"
-      spy={true}
-      smooth={true}
-      offset={-100}
-      duration={500}
-      isDynamic={true}
-      ignoreCancelEvents={false}
-      spyThrottle={500} 
-      
-      className='nav-links' onClick={closeMobileMenu}> Home </Link> </li>
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration={500}
+                        isDynamic={true}
+                        ignoreCancelEvents={false}
+                        spyThrottle={500} 
                         
-    <li className="nav-item" > <Link to="about"
-      spy={true}
-      smooth={true}
-      duration={500}
-      isDynamic={true}
-      ignoreCancelEvents={false}
-      spyThrottle={500} spy={true} smooth={true} 
-
-      className='nav-links' onClick={closeMobileMenu}> About </Link></li>
-
-                        <li className="nav-item" > <Link to='projects' 
+                        className='nav-links' onClick={closeMobileMenu}> Home </Link> </li>
+                                            
+                        <li className="nav-item" > <Link to="about"
                         spy={true}
                         smooth={true}
                         duration={500}
                         isDynamic={true}
-                        offset={-100}
                         ignoreCancelEvents={false}
-                        spyThrottle={500} 
+                        spyThrottle={500} spy={true} smooth={true} 
 
-                        className='nav-links' onClick={closeMobileMenu}> Projects </Link></li>
+                        className='nav-links' onClick={closeMobileMenu}> About </Link></li>
 
+
+                        
                         <li className="nav-item" > <Link to='skills'
                         spy={true}
                         smooth={true}
@@ -67,6 +55,19 @@ const closeMobileMenu = () => setClick(false)
                         spyThrottle={500} 
 
                          className='nav-links' onClick={closeMobileMenu}> Skills </Link></li>
+
+
+
+                        <li className="nav-item" > <Link to='projects' 
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        isDynamic={true}
+                        offset={-100}
+                        ignoreCancelEvents={false}
+                        spyThrottle={500} 
+
+                        className='nav-links' onClick={closeMobileMenu}> Projects </Link></li>
 
                         <li className="nav-item" > <Link to='contact'
                         spy={true}
