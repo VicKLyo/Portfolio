@@ -36,6 +36,7 @@ const closeMobileMenu = () => setClick(false)
                         spy={true}
                         smooth={true}
                         duration={500}
+                        offset={-100}
                         isDynamic={true}
                         ignoreCancelEvents={false}
                         spyThrottle={500} spy={true} smooth={true} 
