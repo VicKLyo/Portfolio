@@ -3,6 +3,7 @@ import { useState} from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-scroll'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
+import CV from './CV.pdf'
 
 
 const Navbar = () => {
@@ -79,10 +80,9 @@ const closeMobileMenu = () => setClick(false)
                         spyThrottle={500} 
 
                          className='nav-links' onClick={closeMobileMenu}> Contact </Link></li>
-                        <li className="nav-item"> <a className='cv' href="">CV</a> </li>
+                       <li className="nav-item"> <a className='cv'  type="application/octet-stream" href={CV} download="CV - Viktor Yordanov" >CV</a> </li> 
                   </ul>
                 </div>
-                
                 <div className="icon-container">
                 <a target='_blank' href="https://github.com/VicKLyo"> <BsGithub className='icon' > </BsGithub></a> 
                 <a target='_blank' href="https://www.linkedin.com/in/viktor-yordanov-b01370221/y"><BsLinkedin className='icon'></BsLinkedin> </a> 
