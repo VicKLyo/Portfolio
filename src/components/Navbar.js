@@ -86,9 +86,9 @@ const closeMobileMenu = () => setClick(false)
                 <div className="icon-container">
                 <a target='_blank' href="https://github.com/VicKLyo"> <BsGithub className='icon' > </BsGithub></a> 
                 <a target='_blank' href="https://www.linkedin.com/in/viktor-yordanov-b01370221/y"><BsLinkedin className='icon'></BsLinkedin> </a> 
-                </div>
+                </div>  
                 
-              
+                
                 </div>
         </>
     )
