@@ -48,7 +48,7 @@ const ContactForm = () => {
                 <input type="email" placeholder='Your Email Address' value={email} onChange={e => setEmail(e.target.value)} />
                 <textarea placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
                 <button onClick={submit}>Send Message</button>
-                <span className={emailSent ? 'visible' : null}>Thank you for contacting me!</span>
+                <span className={emailSent ? 'visible' : 'invisible'}>Thank you for contacting me!</span>
             </div>
         </div>
     )
