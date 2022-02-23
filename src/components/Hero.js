@@ -11,8 +11,8 @@ const Hero = () => {
         <div className="under-name-wrapper" data-aos="fade-left"  data-aos-duration="2500"  data-aos-once>
             <h2>Front End Web Developer</h2>
                 <div className="icon-container">
-                    <a target='_blank' href="https://github.com/VicKLyo"> <BsGithub className='icon' > </BsGithub></a> 
-                    <a target='_blank' href="https://www.linkedin.com/in/viktor-yordanov-b01370221/y"><BsLinkedin className='icon'></BsLinkedin> </a>
+                    <a target='_blank' href="https://github.com/VicKLyo" rel="noreferrer"> <BsGithub className='icon' > </BsGithub></a> 
+                    <a target='_blank' href="https://www.linkedin.com/in/viktor-yordanov-b01370221/y" rel="noreferrer"><BsLinkedin className='icon'></BsLinkedin> </a>
                 </div>
                 </div>
 

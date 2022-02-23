@@ -40,7 +40,7 @@ const closeMobileMenu = () => setClick(false)
                         offset={-100}
                         isDynamic={true}
                         ignoreCancelEvents={false}
-                        spyThrottle={500} spy={true} smooth={true} 
+                        spyThrottle={500} 
 
                         className='nav-links' onClick={closeMobileMenu}> About </Link></li>
 
@@ -84,8 +84,8 @@ const closeMobileMenu = () => setClick(false)
                   </ul>
                 </div>
                 <div className="icon-container">
-                <a target='_blank' href="https://github.com/VicKLyo"> <BsGithub className='icon' > </BsGithub></a> 
-                <a target='_blank' href="https://www.linkedin.com/in/viktor-yordanov-b01370221/y"><BsLinkedin className='icon'></BsLinkedin> </a> 
+                <a target='_blank' href="https://github.com/VicKLyo" rel="noreferrer"> <BsGithub className='icon' > </BsGithub></a> 
+                <a target='_blank' href="https://www.linkedin.com/in/viktor-yordanov-b01370221/y" rel="noreferrer"><BsLinkedin className='icon'></BsLinkedin> </a> 
                 </div>  
                 
                 
