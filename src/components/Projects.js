@@ -37,7 +37,7 @@ const Projects = () => {
 
                 <div className="boxes-wrapper">
                 <div className="box" >
-                     <ProjectPreview text={"Developed a web app that can track imported data for race car drivers based in Finland, which can store their names, number, splits and total time in a table, which can be sorted in ascending or descending order. After it has been sorted by the user's choice it can be exported to CSV"} tech={"Tech used: React, CSS"} image={raceTrackerImage} /> 
+                     <ProjectPreview text={"Developed a web app that tracks imported data for race car drivers based in Finland, which can store their names, number, splits and total time in a table, which can be sorted in ascending or descending order. It can also be exported to CSV"} tech={"Tech used: React, CSS"} image={raceTrackerImage} /> 
                     <div className="live-git">
                       <a href="https://github.com/SampsaKaskela/race-timing-app" target="_blank"><BsGithub className='projects-icon'/></a>  
                     </div>

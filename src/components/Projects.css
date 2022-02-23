@@ -46,7 +46,7 @@
   font-size: 18px;
   text-align: center;
   padding: 1rem;
-  font-size: clamp(0.6rem, 3vw, 1.5rem);
+  font-size: clamp(0.5rem, 3vw, 1.5rem);
 }
 
 .box a {
@@ -170,5 +170,9 @@
     max-height: 15rem;
     height: 8rem;
     width: 15rem;
+  }
+
+  .box:first-child p {
+    font-size: 0.59rem;
   }
 }
