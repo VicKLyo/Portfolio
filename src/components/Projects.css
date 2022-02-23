@@ -42,6 +42,13 @@
   border-radius: 15px;
 }
 
+.box p {
+  font-size: 18px;
+  text-align: center;
+  padding: 1rem;
+  font-size: clamp(0.6rem, 3vw, 1.5rem);
+}
+
 .box a {
   color: #1b1b1b;
   text-decoration: none;
@@ -56,20 +63,20 @@
 }
 
 .project-preview:hover .hover-container {
-  width: 20.999%;
+  width: 20.9%;
   height: 43%;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #1d1d1d;
+  flex-direction: column;
 }
 
 .project-preview img {
   max-height: 100%;
   max-width: 100%;
-  border-radius: 15px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .hover-container {

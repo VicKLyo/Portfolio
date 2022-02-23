@@ -1,10 +1,14 @@
 import './Projects.css'
-import { BsGithub } from 'react-icons/bs'
-import image2 from './Screenshot_1.png'
 import 'aos/dist/aos.css'
 
+import { BsGithub } from 'react-icons/bs'
 
-const ProjectPreview = ({ image, text }) => {
+import raceTrackerImage from './images/race-tracker.png'
+import clockAppImage from './images/clock-app.png'
+import todoListImage from './images/todo-list.png'
+import blurred from './images/blurred.png'
+
+const ProjectPreview = ({ image, text, tech }) => {
   
     return (
         <div className='projects-container' >
@@ -13,6 +17,7 @@ const ProjectPreview = ({ image, text }) => {
                 <img src={image} alt="" />
                     <div className="hover-container">
                         <p>{text}</p>
+                        <p>{tech}</p>
                     </div>
                 </div>
         </div>
@@ -32,31 +37,30 @@ const Projects = () => {
 
                 <div className="boxes-wrapper">
                 <div className="box" >
-                     <ProjectPreview text={"My description"} image={image2} /> 
+                     <ProjectPreview text={"Developed a web app that can track imported data for race car drivers based in Finland, which can store their names, number, splits and total time in a table, which can be sorted in ascending or descending order. After it has been sorted by the user's choice it can be exported to CSV"} tech={"Tech used: React, CSS"} image={raceTrackerImage} /> 
                     <div className="live-git">
-                       <a href="" target="_blank"><span className='live-btn'>Live</span></a> 
-                      <a href="" target="_blank"><BsGithub className='projects-icon'/></a>  
+                      <a href="https://github.com/SampsaKaskela/race-timing-app" target="_blank"><BsGithub className='projects-icon'/></a>  
                     </div>
                 </div>
 
                 <div className="box">
-                <ProjectPreview text={"My description"} image={image2} /> 
+                <ProjectPreview text={"Clock app using an API to display different quotes every minute. Background image changes depending on whether it's day or evening"} tech={"Tech used: HTML, CSS, JS"} image={clockAppImage} /> 
                     <div className="live-git">
                     <a href="" target="_blank"><span className='live-btn'>Live</span></a> 
-                    <a href="" target="_blank"><BsGithub className='projects-icon'/></a>  
+                    <a href="https://github.com/VicKLyo/Clock" target="_blank"><BsGithub className='projects-icon'/></a>  
                     </div>
                 </div>
 
                 <div className="box">
-                <ProjectPreview text={"My description"} image={image2} /> 
+                <ProjectPreview text={"A todolist in which the user can add, delete and sort tasks by completed or uncompleted and the website saves the tasks using Local Storage."} tech={"Tech used: HTML, CSS, JS"} image={todoListImage} /> 
                     <div className="live-git">
                     <a href="" target="_blank"><span className='live-btn'>Live</span></a> 
-                    <a href="" target="_blank"><BsGithub className='projects-icon'/></a>  
+                    <a href="https://github.com/VicKLyo/Todolist" target="_blank"><BsGithub className='projects-icon'/></a>  
                     </div>
                 </div>
                     
                 <div className="box">
-                <ProjectPreview text={"My description"} image={image2} /> 
+                <ProjectPreview text={"Coming soon!"} image={blurred} /> 
                     <div className="live-git">
                     <a href="" target="_blank"><span className='live-btn'>Live</span></a> 
                     <a href="" target="_blank"><BsGithub className='projects-icon'/></a>  
@@ -64,7 +68,7 @@ const Projects = () => {
                 </div>
 
                 <div className="box">
-                <ProjectPreview text={"My description"} image={image2} /> 
+                <ProjectPreview text={"Coming soon!"} image={blurred} /> 
                     <div  className="live-git">
                     <a href="" target="_blank"> <span className='live-btn'>Live</span> </a> 
                     <a href="" target="_blank"><BsGithub className='projects-icon'/></a>  
@@ -72,7 +76,7 @@ const Projects = () => {
                 </div>
 
                 <div className="box">
-                <ProjectPreview text={"My description"} image={image2} /> 
+                <ProjectPreview text={"Coming soon!"} image={blurred} /> 
                     <div className="live-git">
                     <a href="" target="_blank"><span className='live-btn'>Live</span></a> 
                       <a href="" target="_blank"><BsGithub className='projects-icon'/></a>  
