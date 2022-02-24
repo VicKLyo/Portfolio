@@ -46,7 +46,7 @@ const Projects = () => {
                 <div className="box">
                 <ProjectPreview text={"Clock app using an API to display different quotes every minute. Background image changes depending on whether it's day or evening"} tech={"Tech used: HTML, CSS, JS"} image={clockAppImage} /> 
                     <div className="live-git">
-                    {/* <a href="" target="_blank"><span className='live-btn'>Live</span></a>  */}
+                    <a href="https://viktoryordanov-clock.netlify.app" target="_blank"><span className='live-btn'>Live</span></a> 
                     <a href="https://github.com/VicKLyo/Clock" target="_blank" rel="noreferrer"><BsGithub className='projects-icon'/></a>  
                     </div>
                 </div>
