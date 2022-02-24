@@ -47,7 +47,7 @@ const Projects = () => {
                 <ProjectPreview text={"Clock app using an API to display different quotes every minute. Background image changes depending on whether it's day or evening"} tech={"Tech used: HTML, CSS, JS"} image={clockAppImage} /> 
                     <div className="live-git">
                     <a href="https://viktoryordanov-clock.netlify.app" target="_blank" rel="noreferrer"><span className='live-btn'>Live</span></a> 
-                    
+
                     <a href="https://github.com/VicKLyo/Clock" target="_blank" rel="noreferrer"><BsGithub className='projects-icon'/></a>  
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const Projects = () => {
                 <div className="box">
                 <ProjectPreview text={"A todolist in which the user can add, delete and sort tasks by completed or uncompleted and the website saves the tasks using Local Storage."} tech={"Tech used: HTML, CSS, JS"} image={todoListImage} /> 
                     <div className="live-git">
-                    {/* <a href="" target="_blank"><span className='live-btn'>Live</span></a>  */}
+                    <a href="https://viktoryordanov-todolist.netlify.app" target="_blank"  rel="noreferrer"><span className='live-btn'>Live</span></a> 
                     <a href="https://github.com/VicKLyo/Todolist" target="_blank" rel="noreferrer"><BsGithub className='projects-icon'/></a>  
                     </div>
                 </div>
